@@ -7,7 +7,7 @@ b. Punya 7 layer (dari atas ke bawah)
     4. Transport layer
     3. Network layer
     2. Data Link layer
-    1. Pyysical layer
+    1. Physical layer
 c. dari disi penerima data, data akan masuk dari lapisan pertama ke lapisan ketujuh
     7. Application layer
         Jika buka situs, Application layer yang menyiapkan permintaan ke jaringan
@@ -19,4 +19,22 @@ c. dari disi penerima data, data akan masuk dari lapisan pertama ke lapisan ketu
         Tugas: bagi pengirim data enskripsi, kompresi, encoding data
                 bagi penerima data, dekripsi, dekompres, decode
     5. Session Layer
-        untuk menjaga 
+        untuk menjaga sessiton, misal tetap di AWS sampai anda logout
+        jg checkpoin, jika qt mengirim file 500 mb lalu terhenti maka akan dilanjutkan dari 300mb tdk dari 0
+    4. Transport Layer
+        Data dipecah jadi segment
+        memastikan keandalan pengiriman segmen data di jaringan
+        jika data corrupt maka perlu dikirim ulang
+        Protokol: TCP, UDP
+    3. Network Layer
+        Memecah segment ke dalam paket
+        Paket punya 2 bagian 1. Header(info ttg paket), 2. Body (isi dari paket)
+    2. Data Link Layer
+        Memecah Paket ke dalam frame
+        MAC Address: kayak info org tsb, alamat benar.orang yg benar
+    1. Physical Layer
+        melibatkan semua perangkat keras : router, kabel, switch
+        Frame diubah menjadi bit, lalu dikirim ke penerima
+
+Bagaimana dg model tcp/ip?
+![Image](~/gambar1.png)
