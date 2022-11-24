@@ -1,0 +1,22 @@
+keyword:
+a. model osi konseptual yang dapat berkerja melalui jaringan
+b. Punya 7 layer (dari atas ke bawah)
+    7. Application layer
+    6. Presentation layer
+    5. Session layer
+    4. Transport layer
+    3. Network layer
+    2. Data Link layer
+    1. Pyysical layer
+c. dari disi penerima data, data akan masuk dari lapisan pertama ke lapisan ketujuh
+    7. Application layer
+        Jika buka situs, Application layer yang menyiapkan permintaan ke jaringan
+        Application Layer: hal2 yg diandalkan oleh sebuah apllikasi agar data tersaji dengan baik
+        Contoh: HTTP, header, cookie, applikasi bukan
+        Protokol: HTTP, FTP, SMTP dll
+    6. Presentation Layer
+        untk konversi data agar sistem dengan format data yang berbeda dapat bertukar informasi
+        Tugas: bagi pengirim data enskripsi, kompresi, encoding data
+                bagi penerima data, dekripsi, dekompres, decode
+    5. Session Layer
+        untuk menjaga 
